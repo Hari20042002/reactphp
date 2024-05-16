@@ -16,9 +16,9 @@
 
 <br>
 
-ReactPHP is a low-level library for event-driven programming in PHP. At its core
-is an event loop, on top of which it provides low-level utilities, such as:
-Streams abstraction, async DNS resolver, network client/server, HTTP
+ReactPHP is a low-level library for an  event-driven programming in PHP. At its core
+ion top of which it is provides low-level utilities, such as:
+ abstraction, async, network client/server, HTTP
 client/server and interaction with processes. Third-party libraries can use these
 components to create async network clients/servers and more.
 
@@ -45,10 +45,7 @@ echo "Server running at http://127.0.0.1:8080" . PHP_EOL;
 This simple web server written in ReactPHP responds with "Hello World!" for every request.
 
 ReactPHP is production ready and battle-tested with millions of installations
-from all kinds of projects around the world. Its event-driven architecture makes
-it a perfect fit for efficient network servers and clients handling hundreds or
-thousands of concurrent connections, long-running applications and many other
-forms of cooperative multitasking with non-blocking I/O operations. What makes
+from all kinds of projects around the world. What makes
 ReactPHP special is its vivid ecosystem with hundreds of third-party libraries
 allowing you to integrate with many existing systems, such as common network
 services, database systems and other third-party APIs.
